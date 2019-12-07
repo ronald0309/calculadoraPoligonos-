@@ -41,7 +41,7 @@
             // 
             // btnPerimetro
             // 
-            this.btnPerimetro.Location = new System.Drawing.Point(541, 362);
+            this.btnPerimetro.Location = new System.Drawing.Point(539, 399);
             this.btnPerimetro.Name = "btnPerimetro";
             this.btnPerimetro.Size = new System.Drawing.Size(114, 23);
             this.btnPerimetro.TabIndex = 0;
@@ -50,7 +50,7 @@
             // 
             // btnArea
             // 
-            this.btnArea.Location = new System.Drawing.Point(661, 362);
+            this.btnArea.Location = new System.Drawing.Point(672, 399);
             this.btnArea.Name = "btnArea";
             this.btnArea.Size = new System.Drawing.Size(106, 23);
             this.btnArea.TabIndex = 1;
@@ -67,7 +67,7 @@
             this.tabControl.Location = new System.Drawing.Point(31, 12);
             this.tabControl.Name = "tabControl";
             this.tabControl.SelectedIndex = 0;
-            this.tabControl.Size = new System.Drawing.Size(736, 330);
+            this.tabControl.Size = new System.Drawing.Size(736, 381);
             this.tabControl.TabIndex = 2;
             // 
             // triangulTP
@@ -115,7 +115,7 @@
             this.pentagonoTP.Location = new System.Drawing.Point(4, 22);
             this.pentagonoTP.Name = "pentagonoTP";
             this.pentagonoTP.Padding = new System.Windows.Forms.Padding(3);
-            this.pentagonoTP.Size = new System.Drawing.Size(728, 304);
+            this.pentagonoTP.Size = new System.Drawing.Size(728, 355);
             this.pentagonoTP.TabIndex = 4;
             this.pentagonoTP.Text = "Pentagono";
             this.pentagonoTP.UseVisualStyleBackColor = true;
