@@ -18,6 +18,28 @@ namespace UNA.Poligonos
             this.ancho = ancho;
             this.largo = largo;
         }
+        public double Ancho
+        {
+            get
+            {
+                return ancho;
+            }
+            set
+            {
+                ancho = value;
+            }
+        }
+        public double Largo
+        {
+            get
+            {
+                return largo;
+            }
+            set
+            {
+                largo = value;
+            }
+        }
         public override double calcularArea()
         {
             area = largo * ancho;

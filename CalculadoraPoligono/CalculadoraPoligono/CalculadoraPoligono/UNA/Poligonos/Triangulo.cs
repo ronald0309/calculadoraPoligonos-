@@ -19,6 +19,28 @@ namespace UNA.Poligonos
             this.lado =0;
 
         }
+        public double Lado
+        {
+            get
+            {
+                return lado;
+            }
+            set
+            {
+                lado = value;
+            }
+        }
+        public double Altura
+        {
+            get
+            {
+                return altura;
+            }
+            set
+            {
+                altura = value;
+            }
+        }
 
         public override double calcularArea()
         {

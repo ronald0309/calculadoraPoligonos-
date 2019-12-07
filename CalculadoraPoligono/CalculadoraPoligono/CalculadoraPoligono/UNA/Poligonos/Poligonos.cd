@@ -1,41 +1,41 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="UNA.Poligonos.Triangulo" Collapsed="true">
-    <Position X="0.5" Y="2.25" Width="1.5" />
+  <Class Name="UNA.Poligonos.Triangulo">
+    <Position X="0.5" Y="3" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAACAAAACAAAAABAAAAAAAAAAAAAAAAAAAQBAAAAAE=</HashCode>
+      <HashCode>AAAACAAAACAAAAABAAAAAAAAAAAAAAAEAAAQBAAAAAE=</HashCode>
       <FileName>UNA\Poligonos\Triangulo.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="UNA.Poligonos.Cuadrado" Collapsed="true">
-    <Position X="6" Y="3" Width="1.5" />
+  <Class Name="UNA.Poligonos.Cuadrado">
+    <Position X="5.75" Y="3" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAACAAAACAAAAAAAAAAAAAAAAAAAAAAAAAQBAAAAAE=</HashCode>
+      <HashCode>AAAACAAAACAAAAAAAAAAAAAAAAAAAAAEAAAQBAAAAAE=</HashCode>
       <FileName>UNA\Poligonos\Cuadrado.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="UNA.Poligonos.Circulo" Collapsed="true">
-    <Position X="7.5" Y="2.25" Width="1.5" />
+  <Class Name="UNA.Poligonos.Circulo">
+    <Position X="7.5" Y="3" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAACAAAACAAAAIAAAAAAAAAAAAAAAAAAAAwAAAAAAE=</HashCode>
+      <HashCode>AAAACAAAACAAAAIAAAAAAAAAAAAAACAAAAAwAAAAAAE=</HashCode>
       <FileName>UNA\Poligonos\Circulo.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="UNA.Poligonos.Rectangulo" Collapsed="true">
-    <Position X="2" Y="3" Width="1.5" />
+  <Class Name="UNA.Poligonos.Rectangulo">
+    <Position X="2.25" Y="3" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AQAACAAAACAAAAAAAAAAACAAAAAAAAAAAAAQAAAAAAE=</HashCode>
+      <HashCode>AQAACAEAACAAAAAAIAAAACAAAAAAAAAAAAAQAAAAAAE=</HashCode>
       <FileName>UNA\Poligonos\Retangulo.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="UNA.Poligonos.Pentagono" Collapsed="true">
+  <Class Name="UNA.Poligonos.Pentagono">
     <Position X="4" Y="3" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAACAAAACAAAAAAAAAAAAAAAAACAAAAAAAQBAAAAAE=</HashCode>
+      <HashCode>AAAACAAAACAAAAAAAAAAAAAAAAACAAAEAgAQBAAAAAE=</HashCode>
       <FileName>UNA\Poligonos\Pentagono.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="UNA.Poligonos.Poligono" Collapsed="true">
+  <Class Name="UNA.Poligonos.Poligono">
     <Position X="4" Y="1" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>

@@ -15,9 +15,19 @@ namespace UNA.Poligonos
         {
             area = 0;
             perimetro = 0;
-            this.lado = 0;
+           
         }
-
+        public double Lado
+        {
+            get
+            {
+                return lado;
+            }
+            set
+            {
+                lado = value;
+            }
+        }
         public override double calcularArea()
         {
             area = lado * lado;

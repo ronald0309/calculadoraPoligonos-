@@ -11,12 +11,35 @@ namespace UNA.Poligonos
         private double area;
         private double perimetro;
         private double apotema;
-        Pentagono(double lado, double apotema)
+        Pentagono()
         {
-            this.lado = lado;
-            this.apotema = apotema;
+            
             area = 0;
             perimetro = 0;
+        }
+        public double Apotema
+        {
+            get
+            {
+                return apotema;
+            }
+            set
+            {
+                apotema = value;
+            }
+        }
+
+
+        public double Lado
+        {
+            get
+            {
+                return lado;
+            }
+            set
+            {
+                lado = value;
+            }
         }
         public override double calcularArea()
         {

@@ -16,11 +16,22 @@ namespace UNA.Poligonos
             pi = 3.14159265359;
             area = 0;
             perimetro = 0;
-            this.radio = 0;
+            
+        }
+        public double Radio
+        {
+            get
+            {
+                return radio;
+            }
+            set
+            {
+                radio = value;
+            }
         }
         public override double calcularArea()
         {
-            area = pi * Math.Pow(radio, 2);
+            area = Math.PI* Math.Pow(radio, 2);
             return area;
         }
         public override double calcularPerimetro()
