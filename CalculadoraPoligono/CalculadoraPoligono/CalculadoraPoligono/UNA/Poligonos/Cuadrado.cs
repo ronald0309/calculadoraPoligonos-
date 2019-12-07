@@ -11,13 +11,22 @@ namespace UNA.Poligonos
         private double lado;
         private double area;
         private double perimetro;
+        Cuadrado()
+        {
+            area = 0;
+            perimetro = 0;
+            this.lado = 0;
+        }
+
         public override double calcularArea()
         {
-            throw new NotImplementedException();
+            area = lado * lado;
+            return area;
         }
         public override double calcularPerimetro()
         {
-            throw new NotImplementedException();
+            perimetro = 4 * lado;
+            return perimetro;
         }
     }
 }

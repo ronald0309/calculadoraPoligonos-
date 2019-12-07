@@ -3,7 +3,7 @@
   <Class Name="UNA.Poligonos.Triangulo" Collapsed="true">
     <Position X="0.5" Y="2.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <HashCode>AAAACAAAACAAAAABAAAAAAAAAAAAAAAAAAAQBAAAAAE=</HashCode>
       <FileName>UNA\Poligonos\Triangulo.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -21,7 +21,7 @@
       <FileName>UNA\Poligonos\Circulo.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="UNA.Poligonos.Retangulo" Collapsed="true">
+  <Class Name="UNA.Poligonos.Rectangulo" Collapsed="true">
     <Position X="2" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AQAACAAAACAAAAAAAAAAACAAAAAAAAAAAAAQAAAAAAE=</HashCode>

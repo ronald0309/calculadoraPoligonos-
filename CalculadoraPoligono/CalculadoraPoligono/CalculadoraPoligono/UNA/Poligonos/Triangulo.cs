@@ -11,13 +11,25 @@ namespace UNA.Poligonos
         private double altura;
         private double area;
         private double perimetro;
+        Triangulo()
+        {
+            area = 0;
+            perimetro = 0;
+            this.lado = 0;
+            this.lado =0;
+
+        }
+
         public override double calcularArea()
         {
-            throw new NotImplementedException();
+            area = lado * altura;
+            area = area / 2;
+            return area;
         }
         public override double calcularPerimetro()
         {
-            throw new NotImplementedException();
+            perimetro = 3 * lado;
+            return perimetro;
         }
     }
 }

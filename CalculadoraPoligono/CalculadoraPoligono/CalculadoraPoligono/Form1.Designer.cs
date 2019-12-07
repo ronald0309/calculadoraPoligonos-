@@ -32,18 +32,21 @@
             this.btnArea = new System.Windows.Forms.Button();
             this.tabControl = new System.Windows.Forms.TabControl();
             this.triangulTP = new System.Windows.Forms.TabPage();
+            this.lblAltura = new System.Windows.Forms.Label();
             this.cuadradoTP = new System.Windows.Forms.TabPage();
             this.circuloTP = new System.Windows.Forms.TabPage();
             this.retenguloTP = new System.Windows.Forms.TabPage();
             this.pentagonoTP = new System.Windows.Forms.TabPage();
+            this.LblLado = new System.Windows.Forms.Label();
             this.tabControl.SuspendLayout();
+            this.triangulTP.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnPerimetro
             // 
             this.btnPerimetro.Location = new System.Drawing.Point(539, 399);
             this.btnPerimetro.Name = "btnPerimetro";
-            this.btnPerimetro.Size = new System.Drawing.Size(114, 23);
+            this.btnPerimetro.Size = new System.Drawing.Size(114, 39);
             this.btnPerimetro.TabIndex = 0;
             this.btnPerimetro.Text = "Calcular perimetro.";
             this.btnPerimetro.UseVisualStyleBackColor = true;
@@ -52,7 +55,7 @@
             // 
             this.btnArea.Location = new System.Drawing.Point(672, 399);
             this.btnArea.Name = "btnArea";
-            this.btnArea.Size = new System.Drawing.Size(106, 23);
+            this.btnArea.Size = new System.Drawing.Size(106, 39);
             this.btnArea.TabIndex = 1;
             this.btnArea.Text = "Calcular area";
             this.btnArea.UseVisualStyleBackColor = true;
@@ -72,20 +75,31 @@
             // 
             // triangulTP
             // 
+            this.triangulTP.Controls.Add(this.LblLado);
+            this.triangulTP.Controls.Add(this.lblAltura);
             this.triangulTP.Location = new System.Drawing.Point(4, 22);
             this.triangulTP.Name = "triangulTP";
             this.triangulTP.Padding = new System.Windows.Forms.Padding(3);
-            this.triangulTP.Size = new System.Drawing.Size(728, 304);
+            this.triangulTP.Size = new System.Drawing.Size(728, 355);
             this.triangulTP.TabIndex = 0;
             this.triangulTP.Text = "Triangulo";
             this.triangulTP.UseVisualStyleBackColor = true;
+            // 
+            // lblAltura
+            // 
+            this.lblAltura.AutoSize = true;
+            this.lblAltura.Location = new System.Drawing.Point(68, 44);
+            this.lblAltura.Name = "lblAltura";
+            this.lblAltura.Size = new System.Drawing.Size(85, 13);
+            this.lblAltura.TabIndex = 0;
+            this.lblAltura.Text = "Ingrese la altura:";
             // 
             // cuadradoTP
             // 
             this.cuadradoTP.Location = new System.Drawing.Point(4, 22);
             this.cuadradoTP.Name = "cuadradoTP";
             this.cuadradoTP.Padding = new System.Windows.Forms.Padding(3);
-            this.cuadradoTP.Size = new System.Drawing.Size(728, 304);
+            this.cuadradoTP.Size = new System.Drawing.Size(728, 355);
             this.cuadradoTP.TabIndex = 1;
             this.cuadradoTP.Text = "Cuadrado";
             this.cuadradoTP.UseVisualStyleBackColor = true;
@@ -95,7 +109,7 @@
             this.circuloTP.Location = new System.Drawing.Point(4, 22);
             this.circuloTP.Name = "circuloTP";
             this.circuloTP.Padding = new System.Windows.Forms.Padding(3);
-            this.circuloTP.Size = new System.Drawing.Size(728, 304);
+            this.circuloTP.Size = new System.Drawing.Size(728, 355);
             this.circuloTP.TabIndex = 2;
             this.circuloTP.Text = "Circulo";
             this.circuloTP.UseVisualStyleBackColor = true;
@@ -105,7 +119,7 @@
             this.retenguloTP.Location = new System.Drawing.Point(4, 22);
             this.retenguloTP.Name = "retenguloTP";
             this.retenguloTP.Padding = new System.Windows.Forms.Padding(3);
-            this.retenguloTP.Size = new System.Drawing.Size(728, 304);
+            this.retenguloTP.Size = new System.Drawing.Size(728, 355);
             this.retenguloTP.TabIndex = 3;
             this.retenguloTP.Text = "Retangulo";
             this.retenguloTP.UseVisualStyleBackColor = true;
@@ -120,10 +134,20 @@
             this.pentagonoTP.Text = "Pentagono";
             this.pentagonoTP.UseVisualStyleBackColor = true;
             // 
+            // LblLado
+            // 
+            this.LblLado.AutoSize = true;
+            this.LblLado.Location = new System.Drawing.Point(68, 75);
+            this.LblLado.Name = "LblLado";
+            this.LblLado.Size = new System.Drawing.Size(82, 13);
+            this.LblLado.TabIndex = 1;
+            this.LblLado.Text = "Ingrese la base:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.tabControl);
             this.Controls.Add(this.btnArea);
@@ -131,6 +155,8 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.tabControl.ResumeLayout(false);
+            this.triangulTP.ResumeLayout(false);
+            this.triangulTP.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -145,6 +171,8 @@
         private System.Windows.Forms.TabPage circuloTP;
         private System.Windows.Forms.TabPage retenguloTP;
         private System.Windows.Forms.TabPage pentagonoTP;
+        private System.Windows.Forms.Label lblAltura;
+        private System.Windows.Forms.Label LblLado;
     }
 }
 
