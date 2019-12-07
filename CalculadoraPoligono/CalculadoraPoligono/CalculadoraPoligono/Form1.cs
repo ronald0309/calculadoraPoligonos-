@@ -17,6 +17,29 @@ namespace CalculadoraPoligono
             InitializeComponent();
         }
 
-       
+        private void tabControl_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblAltura_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LblLado_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtAlturaTriangulo_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtBaseTriangulo_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
