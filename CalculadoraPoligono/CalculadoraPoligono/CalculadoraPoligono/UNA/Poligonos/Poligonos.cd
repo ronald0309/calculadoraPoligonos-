@@ -3,42 +3,42 @@
   <Class Name="UNA.Poligonos.Triangulo">
     <Position X="0.5" Y="3" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAACAAAACAAAAABAAAAAAAAAAAAAAAEAAAQBAAAAAE=</HashCode>
+      <HashCode>AAAACAAAAAEAAAABAAAAAAAAAAAAAAAEAAAQBAAAAAA=</HashCode>
       <FileName>UNA\Poligonos\Triangulo.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="UNA.Poligonos.Cuadrado">
     <Position X="5.75" Y="3" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAACAAAACAAAAAAAAAAAAAAAAAAAAAEAAAQBAAAAAE=</HashCode>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAQBAAAAAA=</HashCode>
       <FileName>UNA\Poligonos\Cuadrado.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="UNA.Poligonos.Circulo">
     <Position X="7.5" Y="3" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAACAAAACAAAAIAAAAAAAAAAAAAACAAAAAwAAAAAAE=</HashCode>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAACAAAAAwAAAAAAA=</HashCode>
       <FileName>UNA\Poligonos\Circulo.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="UNA.Poligonos.Rectangulo">
     <Position X="2.25" Y="3" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AQAACAEAACAAAAAAIAAAACAAAAAAAAAAAAAQAAAAAAE=</HashCode>
-      <FileName>UNA\Poligonos\Retangulo.cs</FileName>
+      <HashCode>AQAACAEAAAAAAAAAIAAAACAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>UNA\Poligonos\Rectangulo.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="UNA.Poligonos.Pentagono">
     <Position X="4" Y="3" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAACAAAACAAAAAAAAAAAAAAAAACAAAEAgAQBAAAAAE=</HashCode>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAACAAAEAgAQBAAAAAA=</HashCode>
       <FileName>UNA\Poligonos\Pentagono.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="UNA.Poligonos.Poligono">
     <Position X="4" Y="1" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <HashCode>AAAACAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
       <FileName>UNA\Poligonos\Poligono.cs</FileName>
     </TypeIdentifier>
   </Class>
