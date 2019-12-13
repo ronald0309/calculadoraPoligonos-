@@ -9,10 +9,14 @@ namespace UNA.Poligonos
     {
         private double ancho;
         private double largo;
-        
+        private double area;
+        private double perimetro;
         Rectangulo()
         {
-            Nombre = "Rectangulo";
+            area = 0;
+            perimetro = 0;
+            this.ancho = ancho;
+            this.largo = largo;
         }
         public double Ancho
         {
@@ -38,16 +42,13 @@ namespace UNA.Poligonos
         }
         public override double calcularArea()
         {
-            double area;
-            return area = largo * ancho;
-            
+            area = largo * ancho;
+            return area;
         }
         public override double calcularPerimetro()
         {
-            double perimetro;
-            
-            return perimetro = (2 * ancho) + (2 * largo);
-            
+            perimetro = (2 * ancho) + (2 * largo);
+            return perimetro;
         }
     }
 }

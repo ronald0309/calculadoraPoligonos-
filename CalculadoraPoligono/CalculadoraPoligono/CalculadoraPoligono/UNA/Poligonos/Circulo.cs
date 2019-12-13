@@ -7,12 +7,16 @@ namespace UNA.Poligonos
 {
     public class Circulo : Poligono
     {
-        
+        private double pi;
         private double radio;
-        
+        private double area;
+        private double perimetro;
         Circulo()
         {
-            Nombre = "Circulo";
+            pi = 3.14159265359;
+            area = 0;
+            perimetro = 0;
+            
         }
         public double Radio
         {
@@ -27,15 +31,13 @@ namespace UNA.Poligonos
         }
         public override double calcularArea()
         {
-            double area;
-            return area = Math.PI* Math.Pow(radio, 2);
-            
+            area = Math.PI* Math.Pow(radio, 2);
+            return area;
         }
         public override double calcularPerimetro()
         {
-            double perimetro;
-            return perimetro = (2 * Math.PI) * radio;
-            
+            perimetro = (2 * pi) * radio;
+            return perimetro;
         }
     }
 }
