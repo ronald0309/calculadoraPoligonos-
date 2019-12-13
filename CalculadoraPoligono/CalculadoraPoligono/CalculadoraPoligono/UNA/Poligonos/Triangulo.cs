@@ -9,15 +9,10 @@ namespace UNA.Poligonos
     {
         private double lado;
         private double altura;
-        private double area;
-        private double perimetro;
+        
         Triangulo()
         {
-            area = 0;
-            perimetro = 0;
-            this.lado = 0;
-            this.lado =0;
-
+            Nombre = "Triangulo";
         }
         public double Lado
         {
@@ -44,14 +39,15 @@ namespace UNA.Poligonos
 
         public override double calcularArea()
         {
-            area = lado * altura;
-            area = area / 2;
-            return area;
+            double area;
+            return area = (lado * altura)/2;
+            
         }
         public override double calcularPerimetro()
         {
-            perimetro = 3 * lado;
-            return perimetro;
+            double perimetro;
+            return perimetro = 3 * lado;
+            
         }
     }
 }
