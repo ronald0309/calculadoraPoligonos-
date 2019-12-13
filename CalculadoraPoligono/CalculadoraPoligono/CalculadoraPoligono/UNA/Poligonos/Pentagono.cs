@@ -8,11 +8,14 @@ namespace UNA.Poligonos
     public  class Pentagono : Poligono
     {
         private double lado;
-        
+        private double area;
+        private double perimetro;
         private double apotema;
         Pentagono()
         {
-          Nombre=  "Pentagono";
+            
+            area = 0;
+            perimetro = 0;
         }
         public double Apotema
         {
@@ -40,8 +43,7 @@ namespace UNA.Poligonos
         }
         public override double calcularArea()
         {
-            double area;
-            double perimetro;
+           
             perimetro=calcularPerimetro();
             area = perimetro * apotema;
             area = area / 2;
@@ -50,7 +52,6 @@ namespace UNA.Poligonos
 
         public override double calcularPerimetro()
         {
-            double perimetro;
             perimetro = 5 * lado;
             return perimetro;
         }

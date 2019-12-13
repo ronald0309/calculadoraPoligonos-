@@ -9,10 +9,13 @@ namespace UNA.Poligonos
     {
         
         private double lado;
+        private double area;
+        private double perimetro;
         Cuadrado()
         {
-            Nombre = "Pentagono";
-
+            area = 0;
+            perimetro = 0;
+           
         }
         public double Lado
         {
@@ -27,15 +30,13 @@ namespace UNA.Poligonos
         }
         public override double calcularArea()
         {
-            double area;
-            return area = lado * lado;
-            
+            area = lado * lado;
+            return area;
         }
         public override double calcularPerimetro()
         {
-            double perimetro;
-            return perimetro = 4 * lado;
-            
+            perimetro = 4 * lado;
+            return perimetro;
         }
     }
 }

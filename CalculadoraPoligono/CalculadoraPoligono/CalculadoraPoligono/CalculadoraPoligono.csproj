@@ -48,7 +48,7 @@
   <ItemGroup>
     <Compile Include="UNA\Poligonos\Poligono.cs" />
     <Compile Include="UNA\Poligonos\Pentagono.cs" />
-    <Compile Include="UNA\Poligonos\Rectangulo.cs" />
+    <Compile Include="UNA\Poligonos\Retangulo.cs" />
     <Compile Include="UNA\Poligonos\Circulo.cs" />
     <Compile Include="UNA\Poligonos\Cuadrado.cs" />
     <Compile Include="Form1.cs">
