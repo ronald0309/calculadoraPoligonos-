@@ -9,7 +9,7 @@ namespace UNA.Poligonos
     {
         
         private double lado;
-        Cuadrado()
+        public Cuadrado()
         {
             Nombre = "Pentagono";
 

@@ -10,7 +10,7 @@ namespace UNA.Poligonos
         private double ancho;
         private double largo;
         
-        Rectangulo()
+        public Rectangulo()
         {
             Nombre = "Rectangulo";
         }

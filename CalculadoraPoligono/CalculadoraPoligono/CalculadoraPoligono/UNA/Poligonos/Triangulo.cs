@@ -10,7 +10,7 @@ namespace UNA.Poligonos
         private double lado;
         private double altura;
         
-        Triangulo()
+        public Triangulo()
         {
             Nombre = "Triangulo";
         }

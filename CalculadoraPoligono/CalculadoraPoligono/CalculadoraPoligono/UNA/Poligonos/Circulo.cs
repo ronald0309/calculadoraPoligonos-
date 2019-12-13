@@ -10,7 +10,7 @@ namespace UNA.Poligonos
         
         private double radio;
         
-        Circulo()
+        public Circulo()
         {
             Nombre = "Circulo";
         }

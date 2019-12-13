@@ -8,7 +8,7 @@ namespace UNA.Poligonos
     public abstract class Poligono
     {
 
-        protected string Nombre
+        public string Nombre
         {
             get;
             set;

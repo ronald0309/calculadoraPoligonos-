@@ -10,7 +10,7 @@ namespace UNA.Poligonos
         private double lado;
         
         private double apotema;
-        Pentagono()
+        public Pentagono()
         {
           Nombre=  "Pentagono";
         }
