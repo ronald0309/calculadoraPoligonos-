@@ -1,2 +1,0 @@
-# calculadoraPoligonos-
-Practica en clase 
