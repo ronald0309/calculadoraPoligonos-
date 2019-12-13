@@ -7,8 +7,6 @@ namespace UNA.Poligonos
 {
     public class Triangulo : Poligono
     {
-        private double lado;
-        private double altura;
         
         public Triangulo()
         {
@@ -16,37 +14,40 @@ namespace UNA.Poligonos
         }
         public double Lado
         {
-            get
-            {
-                return lado;
-            }
-            set
-            {
-                lado = value;
-            }
+            get;
+            set;
+        }
+        public double Lado2
+        {
+            get;
+            set;
+        }
+        public double Lado3
+        {
+            get;
+            set;
         }
         public double Altura
         {
-            get
-            {
-                return altura;
-            }
-            set
-            {
-                altura = value;
-            }
+            get;
+            set;
+        }
+        public double Base
+        {
+            get;
+            set;
         }
 
         public override double calcularArea()
         {
             double area;
-            return area = (lado * altura)/2;
+            return area = (Base * Altura)/2;
             
         }
         public override double calcularPerimetro()
         {
             double perimetro;
-            return perimetro = 3 * lado;
+            return perimetro = Lado+Lado2+Lado3;
             
         }
     }

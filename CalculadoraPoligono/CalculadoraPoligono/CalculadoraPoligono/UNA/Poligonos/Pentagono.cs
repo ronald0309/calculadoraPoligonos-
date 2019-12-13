@@ -5,53 +5,37 @@ using System.Text;
 
 namespace UNA.Poligonos
 {
-    public  class Pentagono : Poligono
+    public class Pentagono : Poligono
     {
-        private double lado;
-        
-        private double apotema;
+
         public Pentagono()
         {
-          Nombre=  "Pentagono";
+            Nombre = "Pentagono";
         }
         public double Apotema
         {
-            get
-            {
-                return apotema;
-            }
-            set
-            {
-                apotema = value;
-            }
+            get;
+            set;
         }
 
 
         public double Lado
         {
-            get
-            {
-                return lado;
-            }
-            set
-            {
-                lado = value;
-            }
+            get;
+            set;
         }
         public override double calcularArea()
         {
             double area;
             double perimetro;
-            perimetro=calcularPerimetro();
-            area = perimetro * apotema;
-            area = area / 2;
-            return area;
+            perimetro = calcularPerimetro();
+            return area = (perimetro * Apotema)/2;
         }
 
         public override double calcularPerimetro()
         {
             double perimetro;
-            perimetro = 5 * lado;
+            perimetro = 5 * Lado;
             return perimetro;
         }
     }

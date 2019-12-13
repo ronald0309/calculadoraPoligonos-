@@ -32,6 +32,12 @@
             this.btnArea = new System.Windows.Forms.Button();
             this.tabControl = new System.Windows.Forms.TabControl();
             this.triangulTP = new System.Windows.Forms.TabPage();
+            this.txtLadoTringulo3 = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.txtLadoTringulo2 = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.txtLadoTringulo1 = new System.Windows.Forms.TextBox();
+            this.lbl = new System.Windows.Forms.Label();
             this.txtAlturaTriangulo = new System.Windows.Forms.TextBox();
             this.txtBaseTriangulo = new System.Windows.Forms.TextBox();
             this.LblLado = new System.Windows.Forms.Label();
@@ -63,7 +69,7 @@
             // 
             // btnPerimetro
             // 
-            this.btnPerimetro.Location = new System.Drawing.Point(539, 399);
+            this.btnPerimetro.Location = new System.Drawing.Point(531, 395);
             this.btnPerimetro.Name = "btnPerimetro";
             this.btnPerimetro.Size = new System.Drawing.Size(114, 39);
             this.btnPerimetro.TabIndex = 0;
@@ -72,7 +78,7 @@
             // 
             // btnArea
             // 
-            this.btnArea.Location = new System.Drawing.Point(672, 399);
+            this.btnArea.Location = new System.Drawing.Point(661, 395);
             this.btnArea.Name = "btnArea";
             this.btnArea.Size = new System.Drawing.Size(106, 39);
             this.btnArea.TabIndex = 1;
@@ -96,6 +102,12 @@
             // 
             // triangulTP
             // 
+            this.triangulTP.Controls.Add(this.txtLadoTringulo3);
+            this.triangulTP.Controls.Add(this.label9);
+            this.triangulTP.Controls.Add(this.txtLadoTringulo2);
+            this.triangulTP.Controls.Add(this.label8);
+            this.triangulTP.Controls.Add(this.txtLadoTringulo1);
+            this.triangulTP.Controls.Add(this.lbl);
             this.triangulTP.Controls.Add(this.txtAlturaTriangulo);
             this.triangulTP.Controls.Add(this.txtBaseTriangulo);
             this.triangulTP.Controls.Add(this.LblLado);
@@ -108,13 +120,61 @@
             this.triangulTP.Text = "Triangulo";
             this.triangulTP.UseVisualStyleBackColor = true;
             // 
+            // txtLadoTringulo3
+            // 
+            this.txtLadoTringulo3.Location = new System.Drawing.Point(181, 154);
+            this.txtLadoTringulo3.Name = "txtLadoTringulo3";
+            this.txtLadoTringulo3.Size = new System.Drawing.Size(204, 20);
+            this.txtLadoTringulo3.TabIndex = 9;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(65, 161);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(88, 13);
+            this.label9.TabIndex = 8;
+            this.label9.Text = "Ingrese el lado 3:";
+            // 
+            // txtLadoTringulo2
+            // 
+            this.txtLadoTringulo2.Location = new System.Drawing.Point(181, 125);
+            this.txtLadoTringulo2.Name = "txtLadoTringulo2";
+            this.txtLadoTringulo2.Size = new System.Drawing.Size(204, 20);
+            this.txtLadoTringulo2.TabIndex = 7;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(65, 132);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(88, 13);
+            this.label8.TabIndex = 6;
+            this.label8.Text = "Ingrese el lado 2:";
+            // 
+            // txtLadoTringulo1
+            // 
+            this.txtLadoTringulo1.Location = new System.Drawing.Point(181, 95);
+            this.txtLadoTringulo1.Name = "txtLadoTringulo1";
+            this.txtLadoTringulo1.Size = new System.Drawing.Size(204, 20);
+            this.txtLadoTringulo1.TabIndex = 5;
+            // 
+            // lbl
+            // 
+            this.lbl.AutoSize = true;
+            this.lbl.Location = new System.Drawing.Point(65, 102);
+            this.lbl.Name = "lbl";
+            this.lbl.Size = new System.Drawing.Size(92, 13);
+            this.lbl.TabIndex = 4;
+            this.lbl.Text = "Ingrese el Lado 1:";
+            this.lbl.Click += new System.EventHandler(this.label7_Click);
+            // 
             // txtAlturaTriangulo
             // 
             this.txtAlturaTriangulo.Location = new System.Drawing.Point(181, 37);
             this.txtAlturaTriangulo.Name = "txtAlturaTriangulo";
             this.txtAlturaTriangulo.Size = new System.Drawing.Size(204, 20);
             this.txtAlturaTriangulo.TabIndex = 3;
-            
             // 
             // txtBaseTriangulo
             // 
@@ -122,27 +182,24 @@
             this.txtBaseTriangulo.Name = "txtBaseTriangulo";
             this.txtBaseTriangulo.Size = new System.Drawing.Size(204, 20);
             this.txtBaseTriangulo.TabIndex = 2;
-            
             // 
             // LblLado
             // 
             this.LblLado.AutoSize = true;
-            this.LblLado.Location = new System.Drawing.Point(68, 75);
+            this.LblLado.Location = new System.Drawing.Point(65, 75);
             this.LblLado.Name = "LblLado";
             this.LblLado.Size = new System.Drawing.Size(82, 13);
             this.LblLado.TabIndex = 1;
             this.LblLado.Text = "Ingrese la base:";
-            
             // 
             // lblAltura
             // 
             this.lblAltura.AutoSize = true;
-            this.lblAltura.Location = new System.Drawing.Point(68, 44);
+            this.lblAltura.Location = new System.Drawing.Point(62, 44);
             this.lblAltura.Name = "lblAltura";
             this.lblAltura.Size = new System.Drawing.Size(85, 13);
             this.lblAltura.TabIndex = 0;
             this.lblAltura.Text = "Ingrese la altura:";
-            
             // 
             // cuadradoTP
             // 
@@ -297,9 +354,9 @@
             this.lblFigura.AutoSize = true;
             this.lblFigura.Location = new System.Drawing.Point(49, 410);
             this.lblFigura.Name = "lblFigura";
-            this.lblFigura.Size = new System.Drawing.Size(35, 13);
+            this.lblFigura.Size = new System.Drawing.Size(104, 13);
             this.lblFigura.TabIndex = 3;
-            this.lblFigura.Text = "label7";
+            this.lblFigura.Text = "Figura Seleccionada";
             // 
             // Form1
             // 
@@ -356,6 +413,12 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label lblFigura;
+        private System.Windows.Forms.TextBox txtLadoTringulo3;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox txtLadoTringulo2;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox txtLadoTringulo1;
+        private System.Windows.Forms.Label lbl;
     }
 }
 

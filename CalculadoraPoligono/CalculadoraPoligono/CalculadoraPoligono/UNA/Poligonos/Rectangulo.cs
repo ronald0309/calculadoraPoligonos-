@@ -7,8 +7,7 @@ namespace UNA.Poligonos
 {
     public class Rectangulo : Poligono
     {
-        private double ancho;
-        private double largo;
+       
         
         public Rectangulo()
         {
@@ -16,37 +15,25 @@ namespace UNA.Poligonos
         }
         public double Ancho
         {
-            get
-            {
-                return ancho;
-            }
-            set
-            {
-                ancho = value;
-            }
+            get;
+            set;
         }
         public double Largo
         {
-            get
-            {
-                return largo;
-            }
-            set
-            {
-                largo = value;
-            }
+            get;
+            set;
         }
         public override double calcularArea()
         {
             double area;
-            return area = largo * ancho;
+            return area = Largo * Ancho;
             
         }
         public override double calcularPerimetro()
         {
             double perimetro;
             
-            return perimetro = (2 * ancho) + (2 * largo);
+            return perimetro = (2 * Ancho) + (2 * Largo);
             
         }
     }

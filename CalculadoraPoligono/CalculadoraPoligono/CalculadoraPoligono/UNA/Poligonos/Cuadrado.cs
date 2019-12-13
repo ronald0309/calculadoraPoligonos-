@@ -8,33 +8,27 @@ namespace UNA.Poligonos
     public class Cuadrado : Poligono
     {
         
-        private double lado;
+       
         public Cuadrado()
         {
-            Nombre = "Pentagono";
+            Nombre = "Cuadrado";
 
         }
         public double Lado
         {
-            get
-            {
-                return lado;
-            }
-            set
-            {
-                lado = value;
-            }
+            get;
+            set;
         }
         public override double calcularArea()
         {
             double area;
-            return area = lado * lado;
+            return area = Lado * Lado;
             
         }
         public override double calcularPerimetro()
         {
             double perimetro;
-            return perimetro = 4 * lado;
+            return perimetro = 4 * Lado;
             
         }
     }

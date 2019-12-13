@@ -7,8 +7,7 @@ namespace UNA.Poligonos
 {
     public class Circulo : Poligono
     {
-        
-        private double radio;
+      
         
         public Circulo()
         {
@@ -16,25 +15,19 @@ namespace UNA.Poligonos
         }
         public double Radio
         {
-            get
-            {
-                return radio;
-            }
-            set
-            {
-                radio = value;
-            }
+            get;
+            set;
         }
         public override double calcularArea()
         {
             double area;
-            return area = Math.PI* Math.Pow(radio, 2);
+            return area = Math.PI* Math.Pow(Radio, 2);
             
         }
         public override double calcularPerimetro()
         {
             double perimetro;
-            return perimetro = (2 * Math.PI) * radio;
+            return perimetro = (2 * Math.PI) * Radio;
             
         }
     }

@@ -26,28 +26,38 @@ namespace CalculadoraPoligono
             if (tabControl.SelectedIndex == 0)
             {
                 figuraSelecionada = new Triangulo();
+                lblFigura.Text = figuraSelecionada.Nombre;
             }
             if (tabControl.SelectedIndex == 1)
             {
                 figuraSelecionada = new Cuadrado();
+                lblFigura.Text = figuraSelecionada.Nombre;
             }
             if (tabControl.SelectedIndex == 2)
             {
                 figuraSelecionada = new Circulo();
+                lblFigura.Text = figuraSelecionada.Nombre;
             }
             if (tabControl.SelectedIndex == 3)
             {
                 figuraSelecionada = new Rectangulo();
+                lblFigura.Text = figuraSelecionada.Nombre;
             }
             if (tabControl.SelectedIndex == 4)
             {
                 figuraSelecionada = new Pentagono();
+                lblFigura.Text = figuraSelecionada.Nombre;
             }
 
         }
 
        
         private void btnArea_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
         {
 
         }
